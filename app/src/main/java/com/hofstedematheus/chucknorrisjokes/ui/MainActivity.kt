@@ -1,7 +1,7 @@
 package com.hofstedematheus.chucknorrisjokes.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.hofstedematheus.chucknorrisjokes.R
 
 class MainActivity : AppCompatActivity() {
