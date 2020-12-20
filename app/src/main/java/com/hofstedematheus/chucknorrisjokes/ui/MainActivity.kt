@@ -1,7 +1,8 @@
-package com.hofstedematheus.chucknorrisjokes
+package com.hofstedematheus.chucknorrisjokes.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.hofstedematheus.chucknorrisjokes.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
