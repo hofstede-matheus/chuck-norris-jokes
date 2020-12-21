@@ -39,6 +39,7 @@ dependencies {
     def retrofit_version = "2.9.0"
     def mockK_version = '1.10.0'
     def dagger_version = '2.30.1'
+    def rxJavaVersion = '3.0.8'
 
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -67,6 +68,10 @@ dependencies {
     // Retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+    // ReactiveX
+    implementation "io.reactivex.rxjava3:rxandroid:$rxJavaVersion"
+    implementation "io.reactivex.rxjava3:rxjava:$rxJavaVersion"
 
     // Test
     testImplementation 'junit:junit:4.13.1'
